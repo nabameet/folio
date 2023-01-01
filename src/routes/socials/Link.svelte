@@ -5,7 +5,7 @@
 	export let text: string,
 		imageSrc: string,
 		url: string,
-		openInNewTab = 'true';
+		openInNewTab = 'false';
 	let imageTop: string, imageLeft: string, imageVisibility: string;
 
 	function displayPreview(e: MouseEvent) {
@@ -34,15 +34,29 @@
 
 <Preview {imageSrc} {imageTop} {imageLeft} {imageVisibility} />
 
-<a
-	on:click|preventDefault={() => transitionToPage(url)}
-	on:mousemove={displayPreview}
-	on:mouseleave={hidePreview}
-	href={url}
-	target={openInNewTab === 'true' ? '_blank' : ''}
-	rel={openInNewTab === 'true' ? 'noreferrer' : ''}
-	class="py-10 font-bold text-black transition duration-500 border-b border-white text-9xl cursor-none hover:text-white"
-	style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
->
-	{text}
-</a>
+{#if openInNewTab === 'true'}
+	<a
+		on:mousemove={displayPreview}
+		on:mouseleave={hidePreview}
+		href={url}
+		target="_blank"
+		rel="noreferrer"
+		class="py-10 font-bold text-black transition duration-500 border-b border-white text-9xl cursor-none hover:text-white"
+		style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
+	>
+		{text}
+	</a>
+{:else}
+	<a
+		on:click|preventDefault={() => transitionToPage(url)}
+		on:mousemove={displayPreview}
+		on:mouseleave={hidePreview}
+		href={url}
+		target={openInNewTab === 'true' ? '_blank' : ''}
+		rel={openInNewTab === 'true' ? 'noreferrer' : ''}
+		class="py-10 font-bold text-black transition duration-500 border-b border-white text-9xl cursor-none hover:text-white"
+		style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
+	>
+		{text}
+	</a>
+{/if}

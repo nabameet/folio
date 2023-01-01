@@ -5,11 +5,6 @@
 
 <div class="flex flex-col bg-black">
 	{#each projects as project}
-		<Link
-			openInNewTab="false"
-			text={project.name}
-			url={project.url}
-			imageSrc={project.titleImageSrc}
-		/>
+		<Link text={project.name} url={project.url} imageSrc={project.titleImageSrc} />
 	{/each}
 </div>
