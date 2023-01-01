@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Space Grotesk', ...defaultTheme.fontFamily.sans],
-        'serif': ['Garamond', ...defaultTheme.fontFamily.serif]
+        'serif': ['EB Garamond', ...defaultTheme.fontFamily.serif]
       },
     },
   },
