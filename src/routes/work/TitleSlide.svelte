@@ -5,7 +5,7 @@
 </script>
 
 <main
-	class="w-full h-screen bg-fixed bg-red-400 bg-no-repeat bg-cover snap-start"
+	class="w-full h-screen bg-fixed bg-no-repeat bg-cover snap-start"
 	style="background-image: url({imageSrc});"
 >
 	<section class="float-right w-1/2 break-words">

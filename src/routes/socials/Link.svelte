@@ -28,7 +28,7 @@
 </script>
 
 <div
-	class="w-full h-screen top-0 z-50 bg-red-400 bg-no-repeat bg-cover bg-fixed fixed transition duration-500 origin-bottom {slide}"
+	class="w-full h-screen top-0 z-50 bg-no-repeat bg-cover bg-fixed fixed transition duration-500 origin-bottom {slide}"
 	style="background-image: url({imageSrc})"
 />
 
