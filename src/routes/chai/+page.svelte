@@ -1,15 +1,13 @@
 <!--Complete this-->
 <script lang="ts">
+	import UnderConstruction from '../UnderConstruction.svelte';
+
 	let noOfChai = 1,
 		costOfOneChai = 20;
 	$: costOfChai = noOfChai * costOfOneChai;
 </script>
 
-<div class="min-h-screen bg-black">
-	<h1 class="font-bold text-9xl" style="-webkit-text-stroke: 1px white; paint-order: stroke fill">
-		under construction
-	</h1>
-</div>
+<UnderConstruction />
 
 <!--
 	<div class="justify-center w-full min-h-screen bg-black">

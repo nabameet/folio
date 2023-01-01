@@ -1,6 +1,9 @@
 <script lang="ts">
+	import UnderConstruction from '../../UnderConstruction.svelte';
 	import Project from '../Project.svelte';
 	import { projects } from '/src/data/projects';
 </script>
 
-<Project project={projects[2]} />
+<UnderConstruction />
+
+<!-- <Project project={projects[2]} /> -->
