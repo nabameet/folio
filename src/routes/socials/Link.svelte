@@ -41,7 +41,7 @@
 		href={url}
 		target="_blank"
 		rel="noreferrer"
-		class="py-10 font-bold text-black transition duration-500 border-b border-white text-9xl cursor-none hover:text-white"
+		class="py-10 text-6xl font-bold text-black break-words transition duration-500 border-b border-white sm:text-9xl cursor-none hover:text-white"
 		style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
 	>
 		{text}
@@ -54,7 +54,7 @@
 		href={url}
 		target={openInNewTab === 'true' ? '_blank' : ''}
 		rel={openInNewTab === 'true' ? 'noreferrer' : ''}
-		class="py-10 font-bold text-black transition duration-500 border-b border-white text-9xl cursor-none hover:text-white"
+		class="py-10 text-6xl font-bold text-black break-words transition duration-500 border-b border-white sm:text-9xl cursor-none hover:text-white"
 		style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
 	>
 		{text}
