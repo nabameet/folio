@@ -1,13 +1,10 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import Loader from './Loader.svelte';
 	import MenuText from './MenuText.svelte';
 
 	let text: string, textTop: string, textLeft: string, textVisibility: string;
 
 	let setText = (txt: string) => (text = txt);
-
-	let displayLoader = false;
 
 	function displayText(e: MouseEvent) {
 		textVisibility = 'visible';
@@ -29,11 +26,6 @@
 		setTimeout(() => goto(route), 500);
 	}
 </script>
-
-<svelte:window on:load={() => (displayLoader = true)} />
-{#if displayLoader}
-	<Loader />
-{/if}
 
 <MenuText {text} {textTop} {textLeft} {textVisibility} />
 
@@ -120,6 +112,6 @@
 
 	#logo {
 		/* wait for loader -  */
-		animation: fill 1.75s 0.75s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+		animation: fill 1.75s 3.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 	}
 </style>

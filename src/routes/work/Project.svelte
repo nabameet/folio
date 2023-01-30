@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Project } from 'src/data/Project';
+	import BackButton from '../BackButton.svelte';
 	import EndSlide from './EndSlide.svelte';
 	import ImageSlide from './ImageSlide.svelte';
 	import TextSlide from './TextSlide.svelte';
@@ -8,6 +9,7 @@
 </script>
 
 <section class="h-screen overflow-auto snap-y snap-mandatory">
+	<BackButton />
 	{#each project.slides as slide}
 		{#if slide.type === 'text'}
 			<TextSlide title={slide.title} paragraph={slide.paragraph} />

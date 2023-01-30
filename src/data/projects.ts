@@ -73,6 +73,11 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
+				imageSrc: '/projects/faekbank/landing-page-gif.gif',
+				imageAlt: 'faekbank landing page walkthrough'
+			},
+			{
+				type: 'image',
 				imageSrc: '/projects/faekbank/ui-mockup.png',
 				imageAlt: 'faekbank user interface mockup'
 			},
@@ -100,16 +105,51 @@ export const projects: Project[] = [
 					'young founder summit is a one of its kind event where high school students of class 9-12 collaborate with their peers and thrive to build some compelling business ideas and identify new innovations. students engage in a 52-hour intensive startup program to ignite their minds and work on some potential business ideas.'
 			},
 			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/event.png',
+				imageAlt: 'young founder summit event'
+			},
+			{
 				type: 'text',
 				title: 'revamping the identity',
 				paragraph:
 					'for its 2nd iteration, young founder summit wanted a refreshed look that was simple, easy, professional and corporate friendly, having a conservative business look to attract and engage high-school students who were aspiring entreprenuers.'
 			},
 			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/logo.png',
+				imageAlt: 'young founder summit logo'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/about-logo.png',
+				imageAlt: 'about young founder summit logo'
+			},
+			{
 				type: 'text',
 				title: 'future proofing',
 				paragraph:
 					'not just the logo but the complete visual identity was revamped and thought through. from colors, typography, photography, patterns and unifying brand signifiers to a brand guideline booklet for future reference, was developed.'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/color-palette.png',
+				imageAlt: 'young founder summit color palette'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/typography.png',
+				imageAlt: 'young founder summit typography'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/graphic-elements.png',
+				imageAlt: 'young founder summit graphic elements'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/young-founder-summit/brand-book.png',
+				imageAlt: 'young founder summit brand book'
 			},
 			{
 				type: 'end',
@@ -135,10 +175,34 @@ export const projects: Project[] = [
 					'a simple college project - a booklet about exploring a place, turned into a self-expressionary dark satire, illustrated in a raw fashion.'
 			},
 			{
+				type: 'image',
+				imageSrc: '/projects/cynics-calcutta/journey.png',
+				imageAlt: "cynics' calcutta journey"
+			},
+			{
 				type: 'text',
 				title: 'a satirical travellogue',
 				paragraph:
 					"a city has dark secrets, and even though we people forget and forgive, some don't. cynic's calcutta roams the streets of calcutta, providing a unique point of view into the city life. the colors chosen - black and red make it extremely polarising to look at, and the raw strokes paried with an old-school typewriter-like font, gives it this low-effort, joural-like look and feel."
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/cynics-calcutta/page-1.png',
+				imageAlt: "cynics' calcutta page-1"
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/cynics-calcutta/page-2.png',
+				imageAlt: "cynics' calcutta page-2"
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/cynics-calcutta/page-3.png',
+				imageAlt: "cynics' calcutta page-3"
+			},
+			{
+				type: 'end',
+				text: "cynics' calcutta is close to my heart and i want to expand on it in the near future."
 			}
 		]
 	}

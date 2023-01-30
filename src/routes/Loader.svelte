@@ -21,6 +21,6 @@
 	}
 
 	#logotype {
-		animation: fill 3s 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+		animation: fill 3s 0.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 	}
 </style>
