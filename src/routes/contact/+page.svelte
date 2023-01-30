@@ -1,7 +1,3 @@
-<script context="module">
-	export const prerender = true;
-</script>
-
 <script lang="ts">
 	import Button from './Button.svelte';
 	import Input from './Input.svelte';
