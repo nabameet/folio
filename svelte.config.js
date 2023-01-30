@@ -8,7 +8,11 @@ const config = {
 	preprocess: preprocess({ postcss: true }),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			crawl: true,
+			entries: ['*']
+		}
 	}
 };
 
