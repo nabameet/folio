@@ -4,5 +4,5 @@
 </script>
 
 <section class="w-full h-screen snap-start">
-	<img class="w-full h-full" {src} {alt} />
+	<img class="w-full h-full object-cover" {src} {alt} />
 </section>

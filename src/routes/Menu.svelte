@@ -7,6 +7,8 @@
 
 	let setText = (txt: string) => (text = txt);
 
+	let displayLoader = false;
+
 	function displayText(e: MouseEvent) {
 		textVisibility = 'visible';
 		textTop = e.clientY - 30 + 'px';
@@ -27,6 +29,11 @@
 		setTimeout(() => goto(route), 500);
 	}
 </script>
+
+<svelte:window on:load={() => (displayLoader = true)} />
+{#if displayLoader}
+	<Loader />
+{/if}
 
 <MenuText {text} {textTop} {textLeft} {textVisibility} />
 
@@ -91,8 +98,6 @@
 	</g>
 </svg>
 
-<Loader />
-
 <style>
 	#logogrp * {
 		transform-box: fill-box;
@@ -114,6 +119,7 @@
 	}
 
 	#logo {
-		animation: fill 1.25s 3.75s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+		/* wait for loader -  */
+		animation: fill 1.75s 0.75s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 	}
 </style>

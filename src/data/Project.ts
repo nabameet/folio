@@ -4,6 +4,7 @@ interface Slide {
   paragraph?: string;
   imageSrc?: string;
   imageAlt?: string;
+  text?: string;
 }
 
 export interface Project {

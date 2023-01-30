@@ -8,7 +8,7 @@
 	class="w-full h-screen bg-fixed bg-no-repeat bg-cover snap-start"
 	style="background-image: url({imageSrc});"
 >
-	<section class="float-right w-1/2 break-words">
+	<section class="float-right pl-16 pt-16 w-1/2 break-words">
 		<h1
 			id="title"
 			class="mb-10 font-bold text-transparent text-9xl"

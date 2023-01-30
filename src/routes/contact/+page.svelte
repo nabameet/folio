@@ -8,5 +8,5 @@
 	<Input type="text" name="name" label="name" />
 	<Input type="email" name="email" label="email" />
 	<TextArea name="message" label="your message" />
-	<Button text="let's talk " />
+	<Button text="send" />
 </form>

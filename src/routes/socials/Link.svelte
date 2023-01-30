@@ -20,15 +20,15 @@
 		imageLeft = '0';
 	}
 
-	let slide = 'scale-y-0';
+	let slide = 'translate-y-full';
 	function transitionToPage(route: string) {
-		slide = 'scale-y-100';
+		slide = '';
 		setTimeout(() => goto(route), 550);
 	}
 </script>
 
 <div
-	class="w-full h-screen top-0 z-50 bg-white bg-no-repeat bg-cover bg-fixed fixed transition duration-500 origin-bottom {slide}"
+	class="w-full h-screen z-50 top-0 {slide} bg-center bg-white bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
 	style="background-image: url({imageSrc})"
 />
 
