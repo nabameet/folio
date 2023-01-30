@@ -10,8 +10,13 @@
 		<Highlight text="creative developer" />
 		building brands to scale.
 		<div class="flex flex-col justify-between my-20 text-left">
-			<Link text="resume" url="resume" imageSrc="ss-resume.png" />
-			<Link text="portfolio" url="work" imageSrc="ss-folio.png" />
+			<Link
+				text="download resume"
+				url="resume.pdf"
+				imageSrc="ss-resume.png"
+				download="nabameet-resume.pdf"
+			/>
+			<Link text="portfolio" url="work" imageSrc="ss-folio.png" slider="true" />
 		</div>
 		my work focuses on creating experiences based on the essential elements of the human experience-
 		<Highlight text="the 5 senses" />.

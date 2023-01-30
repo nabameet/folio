@@ -5,7 +5,9 @@
 	export let text: string,
 		imageSrc: string,
 		url: string,
-		openInNewTab = 'false';
+		openInNewTab = 'false',
+		download: any = null,
+		slider = 'false';
 	let imageTop: string, imageLeft: string, imageVisibility: string;
 
 	function displayPreview(e: MouseEvent) {
@@ -27,14 +29,30 @@
 	}
 </script>
 
-<div
-	class="w-full h-screen z-50 top-0 {slide} bg-center bg-white bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
-	style="background-image: url({imageSrc})"
-/>
+{#if slider === 'true'}
+	<div
+		class="w-full h-screen z-50 top-0 {slide} bg-center bg-black bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
+	/>
+{:else}
+	<div
+		class="w-full h-screen z-50 top-0 {slide} bg-center bg-black bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
+		style="background-image: url({imageSrc})"
+	/>
+{/if}
 
 <Preview {imageSrc} {imageTop} {imageLeft} {imageVisibility} />
-
-{#if openInNewTab === 'true'}
+{#if download}
+	<a
+		on:mousemove={displayPreview}
+		on:mouseleave={hidePreview}
+		href={url}
+		{download}
+		class="py-10 text-6xl font-bold text-black break-words transition duration-500 border-b border-white sm:text-9xl cursor-none hover:text-white"
+		style="-webkit-text-stroke: 1px white; paint-order: stroke fill"
+	>
+		{text}
+	</a>
+{:else if openInNewTab === 'true'}
 	<a
 		on:mousemove={displayPreview}
 		on:mouseleave={hidePreview}
