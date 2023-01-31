@@ -13,10 +13,10 @@
 			<Link
 				text="download resume"
 				url="resume.pdf"
-				imageSrc="ss-resume.png"
+				imageSrc="ss-resume.webp"
 				download="nabameet-resume.pdf"
 			/>
-			<Link text="portfolio" url="work" imageSrc="ss-folio.png" slider="true" />
+			<Link text="portfolio" url="work" imageSrc="ss-folio.webp" slider="true" />
 		</div>
 		my work focuses on creating experiences based on the essential elements of the human experience-
 		<Highlight text="the 5 senses" />.
