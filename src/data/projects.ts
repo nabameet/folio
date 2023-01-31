@@ -5,11 +5,11 @@ export const projects: Project[] = [
 		name: 'faekbank',
 		url: '/work/faekbank',
 		description: 'faekbank is a new age fintech startup offering services to gen z',
-		titleImageSrc: '/projects/faekbank/title.png',
+		titleImageSrc: '/projects/faekbank/title.webp',
 		slides: [
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/title.png',
+				imageSrc: '/projects/faekbank/title.webp',
 				imageAlt: 'faekbank cover'
 			},
 			{
@@ -20,7 +20,7 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/logo.png',
+				imageSrc: '/projects/faekbank/logo.webp',
 				imageAlt: 'faekbank logo'
 			},
 			{
@@ -31,17 +31,17 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/graphic-elements.png',
+				imageSrc: '/projects/faekbank/graphic-elements.webp',
 				imageAlt: 'faekbank graphic elements'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/typography.png',
+				imageSrc: '/projects/faekbank/typography.webp',
 				imageAlt: 'faekbank typography'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/color-palette.png',
+				imageSrc: '/projects/faekbank/color-palette.webp',
 				imageAlt: 'faekbank color palette'
 			},
 			{
@@ -52,12 +52,12 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/billboard.png',
+				imageSrc: '/projects/faekbank/billboard.webp',
 				imageAlt: 'faekbank billboard'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/poster.png',
+				imageSrc: '/projects/faekbank/poster.webp',
 				imageAlt: 'faekbank poster'
 			},
 			{
@@ -68,7 +68,7 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/ui.png',
+				imageSrc: '/projects/faekbank/ui.webp',
 				imageAlt: 'faekbank user interface'
 			},
 			{
@@ -78,7 +78,7 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/ui-mockup.png',
+				imageSrc: '/projects/faekbank/ui-mockup.webp',
 				imageAlt: 'faekbank user interface mockup'
 			},
 			{
@@ -91,11 +91,11 @@ export const projects: Project[] = [
 		name: 'young founder summit',
 		url: '/work/young-founder-summit',
 		description: '',
-		titleImageSrc: '/projects/young-founder-summit/title.png',
+		titleImageSrc: '/projects/young-founder-summit/title.webp',
 		slides: [
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/title.png',
+				imageSrc: '/projects/young-founder-summit/title.webp',
 				imageAlt: 'young founder summit cover'
 			},
 			{
@@ -106,7 +106,7 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/event.png',
+				imageSrc: '/projects/young-founder-summit/event.webp',
 				imageAlt: 'young founder summit event'
 			},
 			{
@@ -117,12 +117,12 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/logo.png',
+				imageSrc: '/projects/young-founder-summit/logo.webp',
 				imageAlt: 'young founder summit logo'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/about-logo.png',
+				imageSrc: '/projects/young-founder-summit/about-logo.webp',
 				imageAlt: 'about young founder summit logo'
 			},
 			{
@@ -133,22 +133,22 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/color-palette.png',
+				imageSrc: '/projects/young-founder-summit/color-palette.webp',
 				imageAlt: 'young founder summit color palette'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/typography.png',
+				imageSrc: '/projects/young-founder-summit/typography.webp',
 				imageAlt: 'young founder summit typography'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/graphic-elements.png',
+				imageSrc: '/projects/young-founder-summit/graphic-elements.webp',
 				imageAlt: 'young founder summit graphic elements'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/young-founder-summit/brand-book.png',
+				imageSrc: '/projects/young-founder-summit/brand-book.webp',
 				imageAlt: 'young founder summit brand book'
 			},
 			{
@@ -161,11 +161,11 @@ export const projects: Project[] = [
 		name: "cynics' calcutta",
 		url: '/work/cynics-calcutta',
 		description: '',
-		titleImageSrc: '/projects/cynics-calcutta/title.png',
+		titleImageSrc: '/projects/cynics-calcutta/title.webp',
 		slides: [
 			{
 				type: 'image',
-				imageSrc: '/projects/cynics-calcutta/title.png',
+				imageSrc: '/projects/cynics-calcutta/title.webp',
 				imageAlt: "cynics' calcutta cover"
 			},
 			{
@@ -176,7 +176,7 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/cynics-calcutta/journey.png',
+				imageSrc: '/projects/cynics-calcutta/journey.webp',
 				imageAlt: "cynics' calcutta journey"
 			},
 			{
@@ -187,17 +187,17 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/cynics-calcutta/page-1.png',
+				imageSrc: '/projects/cynics-calcutta/page-1.webp',
 				imageAlt: "cynics' calcutta page-1"
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/cynics-calcutta/page-2.png',
+				imageSrc: '/projects/cynics-calcutta/page-2.webp',
 				imageAlt: "cynics' calcutta page-2"
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/cynics-calcutta/page-3.png',
+				imageSrc: '/projects/cynics-calcutta/page-3.webp',
 				imageAlt: "cynics' calcutta page-3"
 			},
 			{
@@ -213,11 +213,11 @@ export const projects: Project[] = [
   name: "delhi tourism",
   url: '/work/delhi-tourism',
   description: '',
-  titleImageSrc: '/ss-delhi-tourism.png',
+  titleImageSrc: '/ss-delhi-tourism.webp',
   slides: [
     {
       type: 'image',
-      imageSrc: '/ss-delhi-tourism.png',
+      imageSrc: '/ss-delhi-tourism.webp',
       imageAlt: 'delhi tourism cover'
     },
     {
