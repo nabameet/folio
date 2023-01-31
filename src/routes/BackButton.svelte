@@ -10,7 +10,7 @@
 
 <button
 	on:click={transitionToBack}
-	class="bottom-7 transition font-serif w-16 h-16 text-sm hover:scale-150 hover:text-white right-12 bg-black rounded-full fixed flex justify-around items-center border border-white"
+	class="bottom-7 transition duration-300 font-serif w-16 h-16 text-sm hover:scale-150 hover:text-white right-12 bg-black rounded-full fixed flex justify-around items-center border border-white"
 >
 	back
 </button>
