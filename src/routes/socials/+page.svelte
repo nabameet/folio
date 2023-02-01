@@ -22,11 +22,6 @@
 			url="https://behance.net/nabameet"
 			imageSrc="ss-behance.webp"
 		/>
-		<Link
-			openInNewTab="true"
-			text="mail"
-			url="mailto:thenabameet@gmail.com"
-			imageSrc="ss-mail.webp"
-		/>
+		<Link openInNewTab="true" text="mail" url="mailto:hi@nabameet.com" imageSrc="ss-mail.webp" />
 	</div>
 </div>
