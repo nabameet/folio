@@ -1,6 +1,6 @@
 <script>
 	import Link from '../socials/Link.svelte';
-	import { projects } from '/src/data/projects';
+	import { projects } from '../../data/projects';
 </script>
 
 <div class="w-full bg-black">
