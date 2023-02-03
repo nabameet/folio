@@ -3,6 +3,6 @@
 		alt = 'default alt';
 </script>
 
-<section class="w-full h-screen snap-start">
+<section class="w-full sm:h-screen sm:snap-start">
 	<img class="w-full h-full object-cover" {src} {alt} />
 </section>

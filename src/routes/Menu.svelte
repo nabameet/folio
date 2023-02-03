@@ -29,6 +29,10 @@
 
 <MenuText {text} {textTop} {textLeft} {textVisibility} />
 
+<i id="instructions" class="absolute opacity-0 bottom-0 pb-2 font-serif text-center w-full"
+	>(long press / hover over each piece)</i
+>
+
 <svg
 	xmlns="http://www.w3.org/2000/svg"
 	id="logo"
@@ -110,8 +114,21 @@
 		}
 	}
 
+	@keyframes show {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
 	#logo {
 		/* wait for loader -  */
 		animation: fill 1.75s 3.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+	}
+
+	#instructions {
+		animation: show 1.75s 3.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 	}
 </style>
