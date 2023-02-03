@@ -2,7 +2,7 @@
 	import Link from './Link.svelte';
 </script>
 
-<div class="bg-black ">
+<div class="bg-black w-full min-h-screen	">
 	<div class="flex flex-col justify-between">
 		<Link
 			openInNewTab="true"
