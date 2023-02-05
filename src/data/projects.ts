@@ -205,6 +205,54 @@ export const projects: Project[] = [
 				text: "cynics' calcutta is close to my heart and i want to expand on it in the near future."
 			}
 		]
+	},
+
+	{
+		name: 'deno',
+		url: '/work/deno',
+		description: '',
+		titleImageSrc: '/projects/deno/title.webp',
+		slides: [
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/title.webp',
+				imageAlt: 'deno cover'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/1.webp',
+				imageAlt: 'deno redesign process'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/2.webp',
+				imageAlt: 'deno pain points'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/3.webp',
+				imageAlt: 'deno wireframe showcase'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/4.webp',
+				imageAlt: 'deno wireframe'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/5.webp',
+				imageAlt: 'deno ui'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/deno/6.gif',
+				imageAlt: 'deno mockup'
+			},
+			{
+				type: 'end',
+				text: 'deno is close to my heart and i want to expand on it in the near future.'
+			}
+		]
 	}
 ];
 
