@@ -31,7 +31,7 @@
 	<h2 class="font-bold text-white text-4xl sm:text-7xl">₹{costOfChai}</h2>
 	<img
 		class="pt-10 sm:pt-20"
-		src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=upi%3A%2F%2Fpay%3Fpa%3Dthenabameet%40okaxis%26pn%3DNabameet%20Chatterjee%26am%3D{costOfChai}%26tn%3Dchai%20%3B)%26cu%3DINR"
+		src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=upi%3A%2F%2Fpay%3Fpa%3Dthenabameet%40okaxis%26pn%3DNabameet%20Chatterjee%26am%3D{costOfChai}%26tn%3Dchai%20%3B)%26cu%3DINR"
 		alt="UPI QR (thenabameet@okaxis)"
 	/>
 	<p class="pb-5 sm:pb-10 font-serif text-sm sm:text-2xl text-justify break-words text-white">
