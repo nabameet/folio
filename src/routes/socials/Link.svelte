@@ -34,9 +34,10 @@
 		class="w-full h-screen z-50 top-0 {slide} bg-center bg-black bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
 	/>
 {:else}
-	<div
-		class="w-full h-screen z-50 top-0 {slide} bg-center bg-black bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
-		style="background-image: url({imageSrc})"
+	<img
+		class="w-full z-50 top-0 {slide} fixed transition duration-500 origin-bottom"
+		src={imageSrc}
+		alt=""
 	/>
 {/if}
 
