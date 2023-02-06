@@ -4,7 +4,7 @@
 </script>
 
 <div class="w-full min-h-screen overflow-hidden break-words bg-black">
-	<div class="text-6xl font-bold text-justify text-white bg-black sm:text-9xl">
+	<div class="text-6xl font-bold text-justify text-white bg-black sm:text-9xl pb-10">
 		<Highlight text="identity designer" />
 		&
 		<Highlight text="creative developer" />
@@ -26,6 +26,4 @@
 		<Highlight text="bachelor of design" />
 		from delhi technological university.
 	</div>
-
-	<p />
 </div>
