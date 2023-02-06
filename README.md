@@ -4,4 +4,8 @@
 
 ## TODO
 
-- Change About
+- ~~Change About~~
+- Update Resume
+- Higher Quality Pictures (Especially Deno)
+- Better Copywriting in Projects
+- Better Projects
