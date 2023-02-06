@@ -3,4 +3,6 @@
 	import { projects } from '../../../data/projects';
 </script>
 
-<Project project={projects[1]} />
+<div class="w-full bg-black">
+	<Project project={projects[1]} />
+</div>

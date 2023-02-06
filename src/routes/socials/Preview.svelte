@@ -7,7 +7,7 @@
 </script>
 
 <img
-	class="fixed h-80 cursor-none"
+	class="fixed object-cover h-40 sm:h-80 cursor-none"
 	style="top: {imageTop}; left: {imageLeft}; visibility: {imageVisibility}"
 	src={imageSrc}
 	alt={imageAlt}

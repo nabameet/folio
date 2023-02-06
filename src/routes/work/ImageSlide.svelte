@@ -4,5 +4,5 @@
 </script>
 
 <section class="w-full">
-	<img class="w-full h-full object-cover" {src} {alt} />
+	<img class="w-full object-cover" {src} {alt} />
 </section>

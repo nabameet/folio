@@ -34,11 +34,13 @@
 		class="w-full h-screen z-50 top-0 {slide} bg-center bg-black bg-no-repeat bg-cover fixed transition duration-500 origin-bottom"
 	/>
 {:else}
-	<img
-		class="w-full z-50 top-0 {slide} fixed transition duration-500 origin-bottom"
-		src={imageSrc}
-		alt=""
-	/>
+	<div
+		class="w-full h-screen flex flex-col items-center bg-black z-50 top-0 {slide} fixed transition duration-500 origin-bottom"
+	>
+		<div class="max-w-screen-xl w-full">
+			<img class="w-full object-cover" src={imageSrc} alt="link" />
+		</div>
+	</div>
 {/if}
 
 <Preview {imageSrc} {imageTop} {imageLeft} {imageVisibility} />
