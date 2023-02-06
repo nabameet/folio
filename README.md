@@ -1,2 +1,7 @@
-# portfolio site - nabameet.com
+# Personal Portfolio Website
 
+(nabameet.com)
+
+## TODO
+
+- Change About
