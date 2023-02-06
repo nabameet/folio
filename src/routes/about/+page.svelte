@@ -18,12 +18,19 @@
 			/>
 			<Link text="portfolio" url="work" imageSrc="ss-folio.webp" slider="true" />
 		</div>
-		my work focuses on creating experiences based on the essential elements of the human experience-
-		<Highlight text="the 5 senses" />.
+		i am a self-taught artist with a strong background in
+		<Highlight text="branding & web development" />.
 		<br />
 		<br />
-		currently pursuing
-		<Highlight text="bachelor of design" />
-		from delhi technological university.
+		my skill set covers a range of disciplines from
+		<Highlight text="concept development, brand & identity design" />
+		to the full execution of
+		<Highlight text="brand positioning, product development & advertising" />.
+		<br />
+		<br />
+		currently working with early age startups to
+		<Highlight text="create their identity" /> &
+		<Highlight text="position them" />
+		in the market for success.
 	</div>
 </div>
