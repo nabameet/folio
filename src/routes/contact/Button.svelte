@@ -22,7 +22,7 @@
 <button
 	on:mousemove={displayText}
 	on:mouseleave={hideText}
-	class="h-48 font-bold text-left origin-bottom transition duration-700 bg-white text-9xl cursor-none hover:scale-y-150"
+	class="h-48 text-left pl-2 text-5xl origin-bottom transition duration-700 bg-white hover:text-white cursor-none hover:scale-y-150"
 	type="submit"
-	value="submit"
-/>
+	value="submit">></button
+>
