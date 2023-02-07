@@ -205,7 +205,13 @@ export const projects: Project[] = [
 				text: "cynics' calcutta is close to my heart and i want to expand on it in the near future."
 			}
 		]
-	},
+	}
+];
+
+/* 
+{
+
+	
 
 	{
 		name: 'deno',
@@ -254,10 +260,8 @@ export const projects: Project[] = [
 			}
 		]
 	}
-];
 
-/* 
-{
+
   name: "delhi tourism",
   url: '/work/delhi-tourism',
   description: '',
