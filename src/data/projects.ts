@@ -25,24 +25,19 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'text',
-				title: 'brutally in-the-face, by design',
+				title: 'an exciting experience, by design',
 				paragraph:
-					"with the boom of fintech startups, it is soon to be a crowded sector, i was tasked with building an MVP brand that would help faekbank get their product to market quickly. we steered away from traditional 'easy to use', 'white and clear layout' design language and created a brutal, in-the-face design design language that would create polarizing opinions in the market and reach our target gen-z audience, intriguing them to use it."
+					'alongside the core visual identity, the initial UI of the mobile app, and a landing page for the web, a series of graphic elements, typography, color palettes and style guides were developed to get the product straight to the market.'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/graphic-elements.webp',
-				imageAlt: 'faekbank graphic elements'
+				imageSrc: '/projects/faekbank/ui.webp',
+				imageAlt: 'faekbank user interface'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/typography.webp',
-				imageAlt: 'faekbank typography'
-			},
-			{
-				type: 'image',
-				imageSrc: '/projects/faekbank/color-palette.webp',
-				imageAlt: 'faekbank color palette'
+				imageSrc: '/projects/faekbank/landing-page-gif.gif',
+				imageAlt: 'faekbank landing page walkthrough'
 			},
 			{
 				type: 'text',
@@ -62,19 +57,24 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'text',
-				title: 'an exciting experience, by design',
+				title: 'brutally in-the-face',
 				paragraph:
-					'alongside the core visual identity, the initial UI of the mobile app, and a landing page for the web, a series of graphic elements, typography, color palettes and style guides were developed to get the product straight to the market.'
+					"with the boom of fintech startups, it is soon to be a crowded sector, i was tasked with building an MVP brand that would help faekbank get their product to market quickly. we steered away from traditional 'easy to use', 'white and clear layout' design language and created a brutal, in-the-face design design language that would create polarizing opinions in the market and reach our target gen-z audience, intriguing them to use it."
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/ui.webp',
-				imageAlt: 'faekbank user interface'
+				imageSrc: '/projects/faekbank/graphic-elements.webp',
+				imageAlt: 'faekbank graphic elements'
 			},
 			{
 				type: 'image',
-				imageSrc: '/projects/faekbank/landing-page-gif.gif',
-				imageAlt: 'faekbank landing page walkthrough'
+				imageSrc: '/projects/faekbank/typography.webp',
+				imageAlt: 'faekbank typography'
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/faekbank/color-palette.webp',
+				imageAlt: 'faekbank color palette'
 			},
 			{
 				type: 'image',
