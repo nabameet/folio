@@ -205,14 +205,7 @@ export const projects: Project[] = [
 				text: "cynics' calcutta is close to my heart and i want to expand on it in the near future."
 			}
 		]
-	}
-];
-
-/* 
-{
-
-	
-
+	},
 	{
 		name: 'deno',
 		url: '/work/deno',
@@ -256,10 +249,115 @@ export const projects: Project[] = [
 			},
 			{
 				type: 'end',
-				text: 'deno is close to my heart and i want to expand on it in the near future.'
+				text: 'made the product (deno deploy) easy-to-understand and the site simple-to-use.'
+			}
+		]
+	},
+	{
+		name: 'ineuron',
+		url: '/work/ineuron',
+		description: '',
+		titleImageSrc: '/projects/ineuron/title.webp',
+		slides: [
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/title.webp',
+				imageAlt: 'ineuron cover'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/2.webp',
+				imageAlt: 'ineuron brand overview'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/3.webp',
+				imageAlt: 'ineuron moodboard'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/4.webp',
+				imageAlt: 'ineuron concept'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/5.webp',
+				imageAlt: 'ineuron construction'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/6.webp',
+				imageAlt: 'ineuron spacing'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/7.webp',
+				imageAlt: 'ineuron logo alts'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/8.webp',
+				imageAlt: 'ineuron app icon'
+			},
+			{
+				type: 'text',
+				title: '',
+				paragraph: ''
+			},
+			{
+				type: 'image',
+				imageSrc: '/projects/ineuron/9.webp',
+				imageAlt: 'ineuron sweater'
+			},
+			{
+				type: 'end',
+				text: 'this redesign was a part of the #ineuronlogo design challenge from the guys at ineuron.ai'
 			}
 		]
 	}
+];
+
+/* 
+{
+
+	
+
+	
 
 
   name: "delhi tourism",
