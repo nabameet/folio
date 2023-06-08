@@ -24,5 +24,5 @@
 	on:mouseleave={hideText}
 	class="h-48 text-left pl-2 text-5xl origin-bottom transition font-serif duration-700 bg-white hover:text-white cursor-none hover:scale-y-150"
 	type="submit"
-	value="submit">>></button
->
+	value="submit"
+/>
