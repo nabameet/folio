@@ -3,8 +3,8 @@
 	import Highlight from './Highlight.svelte';
 </script>
 
-<div class="w-full min-h-screen overflow-hidden break-words bg-black">
-	<div class="text-6xl font-bold text-justify text-white bg-black sm:text-9xl pb-10">
+<div class="flex flex-col items-center break-words bg-black">
+	<div class="max-w-screen-xl text-6xl font-bold text-justify text-white sm:text-9xl pb-10">
 		<Highlight text="identity designer" />
 		&
 		<Highlight text="creative developer" />

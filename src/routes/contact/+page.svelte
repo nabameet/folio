@@ -4,15 +4,18 @@
 	import TextArea from './TextArea.svelte';
 </script>
 
-<form
-	name="contact"
-	method="POST"
-	data-netlify="true"
-	class="flex flex-col w-full min-h-screen bg-black"
->
-	<input type="hidden" name="form-name" value="contact" />
-	<Input type="text" name="name" label="name" />
-	<Input type="email" name="email" label="email" />
-	<TextArea name="message" label="your message" />
-	<Button text="send" />
-</form>
+<div class="flex flex-col items-center bg-black">
+	<form
+		name="contact"
+		method="POST"
+		data-netlify="true"
+		class="max-w-screen-xl flex flex-col w-full"
+	>
+		<Input type="text" name="name" label="name" />
+		<Input type="email" name="email" label="email" />
+		<TextArea name="message" label="your message" />
+		<Button text="send" />
+	</form>
+</div>
+
+<input type="hidden" name="form-name" value="contact" />
