@@ -8,7 +8,7 @@
 	<title>nabameet - identity designer and creative developer</title>
 </svelte:head>
 
-{#if $page.url.pathname === '/' || $page.url.pathname === '/work/faekbank' || $page.url.pathname === '/work/cynics-calcutta' || $page.url.pathname === '/work/delhi-tourism' || $page.url.pathname === '/work/young-founder-summit' || $page.url.pathname === '/work/deno' || $page.url.pathname === '/work/ineuron'}
+{#if $page.url.pathname === '/' || $page.url.pathname === '/onboarding' || $page.url.pathname === '/work/faekbank' || $page.url.pathname === '/work/cynics-calcutta' || $page.url.pathname === '/work/delhi-tourism' || $page.url.pathname === '/work/young-founder-summit' || $page.url.pathname === '/work/deno' || $page.url.pathname === '/work/ineuron'}
 	<slot />
 {:else}
 	<Header />
