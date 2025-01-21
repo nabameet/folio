@@ -1,5 +1,38 @@
 import type { Project } from './Project';
 
+export const newProjectList = [
+	{
+		name: 'young founder summit',
+		url: 'https://www.behance.net/gallery/215676111/Young-Founder-Summit-Brand-Identity-Design',
+		titleImageSrc:
+			'https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/31ff6e215676111.6771642ce8a36.png'
+	},
+	{
+		name: 'faekbank',
+		url: 'https://www.behance.net/gallery/215672003/FaekBank-Brand-Identity-and-Web',
+		titleImageSrc:
+			'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eb1b79215672003.6771511b18c7f.png'
+	},
+	{
+		name: "cynic's calcutta",
+		url: 'https://www.behance.net/gallery/144976467/Cynics-Calcutta-Booklet',
+		titleImageSrc:
+			'https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/ce71c3144976467.629627d87852e.png'
+	},
+	{
+		name: 'knma',
+		url: 'https://www.behance.net/gallery/216639781/KNMA-Brand-Identity-Redesign-(Concept)',
+		titleImageSrc:
+			'https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/0df910216639781.6783ae7990099.png'
+	},
+	{
+		name: 'f(x) design studio',
+		url: 'https://www.behance.net/gallery/216640621/f(x)-design-studio-Brand-Identity-(Concept)',
+		titleImageSrc:
+			'https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7791a4216640621.6783b27dd8cb2.png'
+	}
+];
+
 export const projects: Project[] = [
 	{
 		name: 'faekbank',
