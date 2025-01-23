@@ -8,8 +8,8 @@
 		<Highlight text="identity designer" />
 		&
 		<Highlight text="creative developer" />
-		building brands to scale.
-		<div class="flex flex-col justify-between my-20 text-left">
+		crafting brands that inspire and engage through unconventional digital storytelling.
+		<!-- <div class="flex flex-col justify-between my-20 text-left">
 			<Link
 				text="download resume"
 				url="resume.pdf"
@@ -25,12 +25,12 @@
 		my skill set covers a range of disciplines from
 		<Highlight text="concept development, brand & identity design" />
 		to the full execution of
-		<Highlight text="brand positioning, product development & advertising" />.
+		<Highlight text="brand positioning, product development & advertising" />. -->
 		<br />
 		<br />
 		currently working with early age startups to
 		<Highlight text="create their identity" /> &
 		<Highlight text="position them" />
-		in the market for success.
+		in the market.
 	</div>
 </div>
